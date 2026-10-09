@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ===== سئو: عنوان و توضیحات این صفحه ===== -->
+<title>کارگاه کامپیوتر | هنرستان فنی شهدای شهریار</title>
+<meta name="description" content="معرفی کارگاه و رشته کامپیوتر (شبکه و نرم‌افزار) در هنرستان فنی شهدای شهریار؛ گالری تصاویر کارگاه.">
+<link rel="icon" href="images/1.png">
+
+<!-- فونت وزیرمتن -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- اعمال تم ذخیره‌شده (روشن/تیره) قبل از نمایش صفحه -->
+<script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== پس‌زمینه متحرک ===== -->
+<div class="bg" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i><i class="orb o4"></i></div>
+
+<!-- ===== هدر و منو (لینک‌ها به صفحه اصلی برمی‌گردند) ===== -->
+<header><div class="hd">
+<a href="index.html" class="brand">هنرستان فنی شهدا</a>
+<nav id="nav" aria-label="منوی اصلی">
+<a href="index.html">خانه</a>
+<a href="index.html#about">درباره مدرسه</a>
+<a href="index.html#gallery">گالری</a>
+<a href="index.html#contact">ارتباطات</a>
+</nav>
+<div class="tools">
+<button class="btn" id="th" aria-label="تغییر حالت روشن/تیره">
+<svg class="moon" viewBox="0 0 24 24"><path d="M10 7a7 7 0 0 0 12 5 10 10 0 1 1-12-5Z"/></svg>
+<svg class="sun" viewBox="0 0 24 24"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12ZM11 1h2v3h-2V1Zm0 19h2v3h-2v-3ZM3.5 5 5 3.5 7 5.6 5.6 7 3.5 5Zm13.5 13.4 1.4-1.4 2.1 2.1-1.5 1.4-2-2.1ZM1 11h3v2H1v-2Zm19 0h3v2h-3v-2ZM5 20.5 3.5 19l2.1-2L7 18.4 5 20.5ZM18.4 7 17 5.6l2.1-2.1L20.5 5 18.4 7Z"/></svg>
+</button>
+<button class="btn" id="mb" aria-label="منو"><svg viewBox="0 0 24 24"><path d="M3 4h18v2H3V4Zm0 7h18v2H3v-2Zm0 7h18v2H3v-2Z"/></svg></button>
+</div>
+</div></header>
+
+<main>
+<section>
+
+<!-- ===== عنوان صفحه ===== -->
+<h1 class="page-title">کارگاه <span>کامپیوتر</span></h1>
+<p class="page-sub">شبکه، برنامه‌نویسی و طراحی سایت</p>
+
+<!-- ===== گالری تصاویر کارگاه =====
+     برای افزودن عکس جدید، یک بلوک <figure class="facility-card"> کپی کنید
+     و آدرس عکس (src) و کپشن (h3 و p) را عوض کنید -->
+<div class="facility-gallery">
+
+<figure class="facility-card">
+<img src="computer/c1.webp" alt="کارگاه کامپیوتر" loading="lazy" decoding="async" draggable="false">
+<figcaption class="facility-caption">
+<h3>سایت 3</h3>
+<p>کلاس کامپیوتر </p>
+</figcaption>
+</figure>
+
+
+</div>
+
+<!-- دکمه بازگشت به صفحه اصلی -->
+<div class="logos-container menu">
+<a class="soch" href="index.html#gallery"><small>بازگشت</small></a>
+</div>
+
+</section>
+</main>
+
+<footer>© ۱۴۰۵ هنرستان فنی شهدای شهریار؛ تمامی حقوق محفوظ است.</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
